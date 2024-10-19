@@ -1,0 +1,9 @@
+.country{
+    border: 2px solid steelblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.wd{
+    width: 180px;
+}

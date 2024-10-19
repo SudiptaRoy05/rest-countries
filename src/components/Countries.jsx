@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import Country from "./country/Country";
+import Country from "./countries/country/Country";
 
 export default function Countries() {
   
@@ -16,9 +16,9 @@ export default function Countries() {
   return (
     <div>
       <h3>Countries : {countries.length}</h3>
-      {
-        countries.map(country => <Country key={country.cca3} country={country}></Country>)
-      }
+     {
+      countries.map(country => <Country key={country.cca3} country={country}></Country>)
+     }
     </div>
   );
 }

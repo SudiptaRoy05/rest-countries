@@ -1,6 +1,7 @@
-import "./country.css";
+import './country.css'
 export default function Country({ country }) {
-  const { name, flags} = country;
+  console.log(country);
+  const { name, flags } = country;
   return (
     <div>
       <div className="country">
